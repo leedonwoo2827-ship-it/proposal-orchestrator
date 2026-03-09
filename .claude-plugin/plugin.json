@@ -1,0 +1,15 @@
+{
+  "name": "proposal-orchestrator",
+  "version": "1.2.0",
+  "description": "제안서 작성 + 이미지 생성을 자연어로 오케스트레이션하는 에이전트. 양식 분석, 참조 문서 활용, 본문 작성, 이미지 생성, HWPX 출력까지 단계별 자동화를 제공합니다.",
+  "author": {
+    "name": "proposal-team"
+  },
+  "keywords": [
+    "proposal",
+    "orchestration",
+    "hwpx",
+    "image-generation",
+    "korean"
+  ]
+}
