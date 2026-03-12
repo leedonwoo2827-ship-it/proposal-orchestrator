@@ -19,9 +19,10 @@
 - **이미지 포함 여부**: images/ 폴더의 이미지를 문서에 삽입할지
 
 ### 3단계: HWPX 생성
-- hwpx-writer의 `convert_text_to_hwpx` 호출
+- hwpx-writer의 `convert_md_to_hwpx` 호출
 - `project_dir` 파라미터로 output/ 폴더에 자동 저장
-- `image_paths` 파라미터로 이미지 삽입 (쉼표 구분 절대경로)
+- 이미지는 마크다운 본문의 `![](images/파일명.png)` 태그로 해당 위치에 자동 삽입
+- **image_paths 파라미터는 사용하지 않는다** (문서 끝에 몰리는 문제 방지)
 
 ### 색상/서식 처리
 - `{{red:텍스트}}` → hwpx-writer가 적색 글자로 자동 변환
