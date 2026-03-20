@@ -345,10 +345,10 @@ Claude는 이미지 생성 전에 프롬프트를 보여줍니다. 여기서 조
 | 글자 수 배분/분야별 톤 | `skills/proposal-style-guide.md` |
 | 이미지 프롬프트 스타일 | `skills/image-prompt-design.md` |
 | 워치 보고 형식 | `skills/watch-monitor.md` |
-| 제안서 생성 절차 | `commands/create-proposal.md` |
-| 이미지 생성 절차 | `commands/generate-images.md` |
-| 진행 점검 절차 | `commands/watch-status.md` |
-| HWPX 출력 절차 | `commands/export-hwpx.md` |
+| 제안서 생성 절차 | `skills/create-proposal/SKILL.md` |
+| 이미지 생성 절차 | `skills/generate-images/SKILL.md` |
+| 진행 점검 절차 | `skills/watch-status/SKILL.md` |
+| HWPX 출력 절차 | `skills/export-hwpx/SKILL.md` |
 | 에이전트 시스템 프롬프트 | `agents/proposal-agent.md` |
 | 플러그인 이름/설명/버전 | `.claude-plugin/plugin.json` |
 
